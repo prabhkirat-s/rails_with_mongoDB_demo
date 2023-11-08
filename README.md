@@ -1,11 +1,10 @@
 ## Table of Contents
-- [Installing MongoDB Community Edition on Ubuntu](#install_mongodb_in_ubuntu)
-- [Building a Rails Application with MongoDB](#rails_app_with_mongo)
+- [Installing MongoDB Community Edition on Ubuntu](#installing-mongodb-community-edition-on-ubuntu)
+- [Building a Rails Application with MongoDB](#building-a-rails-application-with-mongodb)
 
 
 
 # Installing MongoDB Community Edition on Ubuntu
-<a id="install_mongodb_in_ubuntu"></a>
 
 This guide will walk you through the process of installing MongoDB Community Edition on your Ubuntu system. For detailed information and additional options, you can refer to the official MongoDB documentation [here](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/).
 
@@ -77,7 +76,6 @@ For Ubuntu 22.04:
 
 
 # Building a Rails Application with MongoDB
-<a id="rails_app_with_mongo"></a>
 
 ### Introduction
 
