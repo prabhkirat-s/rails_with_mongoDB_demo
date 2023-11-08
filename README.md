@@ -117,7 +117,7 @@ With everything set up, you're ready to start your Rails server and see your Pos
 
     rails s
 
-Visit http://localhost:3000/ in your web browser, and you can now create, read, update, and delete posts in your MongoDB-powered Rails application.
+Visit http://localhost:3000/posts in your web browser, and you can now create, read, update, and delete posts in your MongoDB-powered Rails application.
 
 
 
