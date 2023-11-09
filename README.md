@@ -1,4 +1,5 @@
 # Table of Contents
+- [Why or When to choose MongoDB](#whywhen-to-choose-mongodb)
 - [Installing MongoDB Community Edition on Ubuntu](#installing-mongodb-community-edition-on-ubuntu)
 - [Building a Rails Application with MongoDB](#building-a-rails-application-with-mongodb)
 
