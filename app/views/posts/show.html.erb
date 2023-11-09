@@ -8,3 +8,16 @@
 
   <%= button_to "Destroy this post", @post, method: :delete %>
 </div>
+
+
+  <div>
+    <h2 >
+      <strong><%= @post.comments.count %></strong> Comments
+    </h2>
+    <%= render @post.comments %>
+    <div>
+      <hr />
+      <h3>Leave a reply</h3>
+      <%= render partial: 'comments/form', locals: { comment: @post.comments.build } %>
+    </div>
+  </div>
