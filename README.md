@@ -1,7 +1,45 @@
-## Table of Contents
+# Table of Contents
 - [Installing MongoDB Community Edition on Ubuntu](#installing-mongodb-community-edition-on-ubuntu)
 - [Building a Rails Application with MongoDB](#building-a-rails-application-with-mongodb)
 
+# Why/When to Choose MongoDB
+Choosing between MongoDB, PostgreSQL, and MySQL depends on the specific needs of your application. Each database has its strengths, and here are some benefits of MongoDB over PostgreSQL and MySQL:
+
+### 1) Schema Flexibility -
+MongoDB is a NoSQL database, offering schema flexibility. It doesn't require a predefined schema, allowing you to store documents with varying structures. This flexibility is beneficial when dealing with evolving or dynamic data.
+
+### 2) Document-Oriented Model -
+MongoDB stores data in BSON (Binary JSON) documents, which are JSON-like objects. This document-oriented model is more natural for developers working with object-oriented programming languages, as it mirrors the application's data structures.
+
+### 3) Horizontal Scalability and Sharding -
+MongoDB's architecture supports horizontal scaling through sharding. Sharding enables distributing data across multiple servers, allowing for increased capacity and improved performance as data grows.
+
+### 4) Adaptability to Changing Data Patterns -
+MongoDB adapts well to changing data patterns. You can easily add or remove fields from documents without affecting the overall structure, providing agility in development.
+
+### 5) Performance with Large Datasets -
+MongoDB uses a binary storage format i.e. BSON, which allows for efficient storage and retrieval of complex data structures. Additionally, it supports indexing, which enhances query performance.
+
+### 6) Query Language and Aggregation Framework -
+MongoDB's query language and powerful aggregation framework offer extensive capabilities for querying and manipulating data. It supports complex queries, filtering, sorting, and aggregation operations(Like - SUM, COUNT, and AVG).
+
+### 7) Geospatial Indexing -
+MongoDB has built-in support for geospatial indexing and queries. It is a technique used in databases to efficiently store and retrieve data based on their geographic location.
+
+### 8) Development Speed -
+The flexibility of MongoDB often leads to faster development cycles, especially in the early stages of a project where data structures may evolve rapidly.
+
+## While MongoDB has these advantages, it's essential to note that PostgreSQL and MySQL also have their strengths:
+
+### 1) ACID Compliance -
+PostgreSQL and MySQL are both relational databases that adhere to the ACID properties (Atomicity, Consistency, Isolation, Durability). This makes them suitable for applications where data integrity and transactions are critical.
+
+### 2)Mature Ecosystem -
+PostgreSQL and MySQL have been around for a longer time, resulting in a mature ecosystem with extensive community support, tools, and integrations.
+
+### 3) Structured Data -
+If your application relies heavily on structured data and transactions, a relational database like PostgreSQL or MySQL might be a better fit.
+Ultimately, the choice between MongoDB, PostgreSQL, and MySQL depends on your specific use case, development preferences, and the nature of your data.
 
 
 # Installing MongoDB Community Edition on Ubuntu
